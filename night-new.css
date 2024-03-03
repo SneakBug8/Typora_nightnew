@@ -110,6 +110,17 @@ sup.md-footnote {
 p {
     -ms-word-wrap: break-word;
     word-wrap: break-word;
+    text-indent: 1.25cm;
+}
+
+ul p, ol p {
+    text-indent: 0;
+}
+
+ul li, ol li {
+    margin: 0;
+    padding: 0;
+    margin-left: 1.25cm;
 }
 
 [hidden] {
